@@ -8,7 +8,7 @@ function SearchForm(status) {
   const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 15px;
   `;
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -25,7 +25,7 @@ function SearchForm(status) {
     <div>
       <StyledDiv>
         <Form>
-          <Field type="text" name="search" placeholder=" Wubbalubbadubdub Search..." />
+          <Field type="text" name="search" placeholder="Wubbalubbadubdub Search" />
         </Form>
       </StyledDiv>
       <StyledDiv>
