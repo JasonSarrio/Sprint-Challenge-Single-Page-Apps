@@ -25,9 +25,9 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [x]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+Answer: Routing is handled by JS that is already on the page, preventing an HTTP request. The information is on the end user saves time but not having to ping server or retrieve from a server 
 
 ## Project Set Up
 
