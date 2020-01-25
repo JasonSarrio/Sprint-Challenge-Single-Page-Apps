@@ -25,7 +25,7 @@ function SearchForm(status) {
     <div>
       <StyledDiv>
         <Form>
-          <Field type="text" name="search" placeholder="Search..." />
+          <Field type="text" name="search" placeholder=" Wubbalubbadubdub Search..." />
         </Form>
       </StyledDiv>
       <StyledDiv>
