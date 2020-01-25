@@ -23,4 +23,26 @@ export default function CharacterList(props) {
           }))
         }
       })
-      
+      .catch(err => {
+        console.log(err);
+      });
+  }, [props.searchArg]);
+
+  if (!characters) return (<p>Loading...</p>)
+
+  return (
+    <section className="character-list">
+      {
+        console.log(characters)
+      }
+      {
+        characters.map((item) => {
+          console.log("creating character card for ", item)
+          return (
+            <CharacterCard key={item.id} char={item}/>
+          );
+        })
+      }
+    </section>
+  );
+}

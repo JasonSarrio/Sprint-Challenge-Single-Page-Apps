@@ -1,9 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import styled from 'styled-components';
 
 export default function Header() {
-  return (
-    <header className="ui centered">
-      <h1 className="ui center">Rick &amp; Morty Fan Page</h1>
-    </header>
-  );
-}
+
+  const PaddingDiv = styled.div`
+  padding: 10px;
+  display: inline-block;
+  `;
+
+
+
+  
